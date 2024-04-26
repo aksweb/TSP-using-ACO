@@ -27,6 +27,7 @@ The implementation consists of a Python program that encapsulates the ACO algori
 
 ### Output:
 ![Optimized Route](ss/op1.png)
+<br>
 The output of the program includes the optimized route for the DTSP, along with the corresponding distance traveled. Additionally, the program saves the tour data to a CSV file, allowing for future reference or further analysis. Visualization of the optimized routes on a map provides insights into the efficiency of the algorithm and the quality of the solutions obtained.
 
 ## Conclusion:
