@@ -1,6 +1,6 @@
 # Project Summary: Dynamic Travelling Salesman Problem (DTSP) via Ant Colony Optimization
 
-## Page 1: Introduction and Problem Statement
+## Introduction and Problem Statement
 
 ### Introduction:
 The problem of efficiently routing vehicles, known as the Travelling Salesman Problem (TSP), has been extensively studied in the field of operations research and optimization. Traditional TSP scenarios assume static data, where all information about the problem is known in advance. However, in real-world scenarios, data can be dynamic, with new orders or destinations emerging over time. This necessitates the development of algorithms capable of dynamically adapting to changes in the problem space.
@@ -8,7 +8,7 @@ The problem of efficiently routing vehicles, known as the Travelling Salesman Pr
 ### Problem Statement:
 The Dynamic Travelling Salesman Problem (DTSP) involves finding the shortest route for a salesman who must visit a set of locations (nodes), where the data associated with these locations may change over time. The challenge is to develop an algorithm that can efficiently optimize routes in real-time as new nodes are added or existing nodes are modified.
 
-## Page 2: Theory, Approach, Implementation, and Output
+## Theory, Approach, Implementation, and Output
 
 ### Theory: Ant Colony Optimization (ACO)
 Ant Colony Optimization is a metaheuristic inspired by the foraging behavior of ants. It is particularly well-suited for solving combinatorial optimization problems such as the TSP. In ACO, artificial ants construct solutions by iteratively selecting paths based on pheromone levels and heuristic information. Pheromones are then updated based on the quality of the solutions found, guiding subsequent iterations towards promising areas of the solution space.
